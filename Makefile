@@ -141,7 +141,7 @@ endif
 endif
 endif
 
-TARGET := saturn.$(VERSION)
+TARGET := saturn.ultimate.$(VERSION)
 VERSION_CFLAGS := -D$(VERSION_DEF) -D_LANGUAGE_C
 VERSION_ASFLAGS := --defsym $(VERSION_DEF)=1
 
